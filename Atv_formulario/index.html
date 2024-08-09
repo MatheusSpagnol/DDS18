@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <link rel="stylesheet" href="CSS_form.css">
+</head>
+<body>
+
+    <h1>Formulário</h1>
+    <br>
+    <div class="Borda" id="Div1">
+    <h3>Dados Pessoais</h3>
+    <br><br>
+    <label for="Nome"><b>Nome:</b></label>
+    <input type="text" name="Nome">
+    <br> <br>
+    <label for="Endereço"><b>Cep:</b></label>
+    <input type="text" name="Endereço">
+    <br> <br>
+    <label for="cidade"><b>Cidade:</b></label>
+    <input type="text" name="Cidade">
+    <br><br>
+    <label for="cidade"><b>Estado:</b></label>
+    <select nome="Estados">
+        <option value="Espirito Santo">Espirito Santo</option>
+        <option value="São Paulo">São Paulo</option>
+        <option value="Minas Gerais">Minas Gerais</option>
+        <option value="Amapa">Amapa</option>
+        <option value="Acre">Acre</option>
+
+    </select>
+    <br><br>
+   </div> 
+   <br>
+   <div class="Borda">
+    <h3>Dados Profissionais</h3>
+    
+    <h4>Natureza do cargo</h4>
+    <input type="radio" name="Gerência" value="Gerência">Gerência
+    <input type="radio" name="Financeiro" value="Financeiro">Financeiro
+    <input type="radio" name="Recepção" value="Recepção">Recepção
+    <input type="radio" name="Administrativo" value="Administrativo">Administrativo
+    <input type="radio" name="Juridico" value="Juridico">Juridico
+    <br> <br>
+    <h4>Área de interesse</h4>
+    <input type="checkbox" name="Computação" value="Computação">Computação
+    <input type="checkbox" name="Biologia" value="Biologia">Biologia
+    <input type="checkbox" name="Meio Ambiente" value="Meio Ambiente">Meio Ambiente
+    <input type="checkbox" name="Engenharia" value="Engenharia ">Meio Engenharia
+    <input type="checkbox" name="História" value="História ">História
+    <br>
+    <label><h4>Mini Curriculo</h4>
+        <textarea>
+        
+        </textarea>
+</div>
+<button type="submit">Enviar</button>
+<button type="submit">Limpar</button>
+
+
+
+
+    
+</body>
+</html>

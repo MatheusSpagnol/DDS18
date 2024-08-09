@@ -15,7 +15,7 @@ header{
     align-items: center;
 }
 
-.red{
+.Vermelho{
     display: flex;
     height: 50vh;
     width: 100vw;
@@ -26,7 +26,7 @@ header{
     gap: 1rem;
 }
 
-.internalBox-1{
+.internalBox{
     text-align: center;
     background-color: green;
     width: 90%;
