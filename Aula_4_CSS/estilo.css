@@ -1,0 +1,14 @@
+.tabom{
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+#um{
+    padding: 10rem;
+    text-align: center;
+    align-items: center;
+    border: 5px green;
+    border-width: 30px ;
+    border-style:solid;
+}

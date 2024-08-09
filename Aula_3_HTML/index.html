@@ -1,24 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
+    <title>Div</title>
 </head>
 <body>
-    <h1>Formulário</h1>
-    <label for="nome"> Digite seu nome</label>
-    <input type="text" name="Nome" placeholder="Digite o seu nome">
-    <br>
-    <label for="nome"> Digite seu Email</label>
-    <input type="text" name="Nome" placeholder="Digite o seu Email">
-    <br>
-    <label for="nome"> Digite sua senha</label>
-    <input type="password">
-    <br>
-    <label for="dt_nasc"> Data de nascimento</label>
-    <input type="date">
-    <input type="datetime-local">
-    <input type="time">
+    <div style="background-color: green;
+         width: 300px; 
+         height: 150px;">
+        <p>Divisão 1</p>
+        <p>Divisão 1</p>
+        <p>Divisão 1</p>
+        <p>Divisão 1</p>
+    </div>
+
+    <div style="background-color: yellow;
+        width: 300px;
+        height: 150px;
+        color: blueviolet;">
+        <p>Divisão 2</p>
+        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+    </div>
+
+    <div style="background-color: aqua;
+        width: 80%;
+        height: 100px;">
+        <p>Divisão 3</p>
+
+        <div style="background-color:blue; width: 100px;
+        display: inline-block;">
+            <p>SubDivisão 3.1</p>
+        </div>
+
+        <div div style="background-color: blue; width: 100px;
+        display: inline-block;
+        text-align: center;">
+            <p>SubDivisão 3.2</p>
+        </div>
+        
+        <div div style="background-color: blue; width: 100px;
+        display: inline-block;">
+            <p>SubDivisão 3.3</p>
+        </div>
+
+    </div>
+
 </body>
 </html>
