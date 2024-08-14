@@ -1,0 +1,23 @@
+#Red{
+    font-family: Arial, Helvetica, sans-serif;
+    color:red;
+}
+#green{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color:green
+}
+
+#Blue{
+    font-family: Comic sans-serif;
+    font-size: 20px;
+    color:blue;
+    font-style: italic;
+}
+body{
+    color:yellow;
+    font-size: 14;
+    font-weight: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}

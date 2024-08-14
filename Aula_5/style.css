@@ -1,0 +1,43 @@
+body{
+    background-color: brown;
+}
+p{
+    background-color: rgb(173, 165, 165);
+}
+#centro{
+    text-align:center;
+    background-color: cornflowerblue;
+}
+
+#Direita{
+    text-align:right;
+    background-color: bisque;
+}
+#Justificativa{
+    text-align: center;
+    background-color: blue;
+}
+
+#Maiusculo{
+    text-transform: uppercase;
+}
+
+#Minusculo{
+    text-transform: lowercase;
+}
+
+#Decorado{
+    text-decoration: overline underline line-through;
+
+}
+#title{
+    font-size: 100px;
+    text-shadow: 4px 3px rgb(255, 255, 255);
+}
+
+#Fonte{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 15pt;
+    font-style: italic;
+    font-weight: 200;
+}
