@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(49, 143, 238);
+    display: flex;
+}
+#lupa{
+    background-image: none;
+}
+
+
+#P{
+    background-color: forestgreen;
+}

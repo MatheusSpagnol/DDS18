@@ -1,0 +1,227 @@
+#body2{
+    background-color: blueviolet;
+    height: 1000px;
+    margin: 0px;
+
+}
+.menu{
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    display: block;
+}
+
+#menu1{
+    top:0px;
+    background-color: black;
+    position: sticky;
+
+}
+
+
+    
+
+
+#menu1 > ul{
+    list-style: none;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+#menu1 > ul > li {
+    color:rgb(249, 249, 249);
+    background-color: rgb(135, 0, 0);
+    width: 170px;
+    height: 60px;
+    display: inline-block;
+    font-weight: 900;
+    line-height: 50px;
+}
+
+#menu1 > ul > li:hover {
+background-color: rgb(54, 46, 46);
+}
+
+#menu2{
+    position: relative;
+    display: block;
+    background-color: rgb(128, 0, 0);
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+#menu2 > ul{
+    list-style: none;
+    text-align: center;
+}
+#menu2 > ul > li{
+    color:rgb(0, 0, 0);
+    background-color: snow;
+    width: 170px;
+    height: 60px;
+    display: inline-block;
+    font-weight: 900;
+    line-height: 50px;
+   
+}
+
+#menu2 > ul > li:hover{
+
+background-color: burlywood;
+padding:5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: violet;
+    margin: 0;
+    padding-left: 0;
+    height: 10000px;
+}
+
+.pai{
+    height: 300px;
+    width: 300px;
+}
+.filho{
+    height: 150px;
+    width: 150px;
+}
+
+/*Statix*/
+.p-estatico{
+    position: static;
+    background-color: green;
+
+}
+.f-estatico{
+    position: static;
+    background-color: rgb(128, 0, 0);
+
+}
+/*Fixed*/
+.p-fixed{
+    position: fixed;
+    background-color: darkorange;
+}
+
+.f-fixed{
+    position: fixed;
+    background-color: cornflowerblue;
+}
+/*Stick*/
+
+
+.f-stick{
+   
+    background-color: rgb(13, 13, 13);
+}
+.p-stick{
+    position: sticky;
+    margin: 100px 0 0 320px;
+    top:0;
+    left:0;
+    background-color: rgb(34, 255, 167);
+}
+/*Relativo*/
+
+.p-relative{
+    background-color: darkslateblue;
+    margin: 150px;
+}
+
+.f-relative{
+    position: relative;
+    left: 10px;
+    top: 50px;  
+    background-color: rgb(164, 147, 162);
+}
+
+/*Estatico Relative*/
+
+
+.p-absolute-estatico{
+    margin-top: 200px;
+    background-color: brown;
+}
+
+.f-absolute-estatico{
+    background-color: rgb(147, 0, 69);
+    top: 20px;
+    left: 50px;
+
+}
+
+/*Estatico Relative nao pai*/
+
+.p-absolute-nao-estatico{
+    margin-top: 200px;
+    background-color: rgb(159, 0, 0);
+    position: relative;
+}
+
+
+
+.f-absolute-nao-estatico{
+    margin-top: 200px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 20px;
+    left: 30px;
+
+}
